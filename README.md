@@ -59,7 +59,5 @@ Current Input → OCV(SOC) Lookup + Hysteresis Noise → Thevenin ECM → Termin
 - MATLAB
 - Simulink
 
-## Notes
-
 - No thermal model is implemented; simulation assumes a fixed 25°C ambient temperature.
 - R1/C1/R2/C2 are fitted dynamic-response parameters, not literal physical components — they are not published in the cell's datasheet and were scaled from literature-reported HPPC test data.
